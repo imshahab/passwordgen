@@ -1,0 +1,155 @@
+body {
+    accent-color: #fddd5c;
+    background-color: #18172d;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 32px;
+}
+
+#title-box {
+    width: 100%;
+    text-align: left;
+    line-height: 36px;
+}
+
+#main-box {
+    display: flex;
+    flex-direction: column;
+    margin: 64px  0 32px 0;
+    width: 100%;
+    max-width: 640px;
+    align-items: stretch;
+}
+
+#slider-subtitle {
+    display: flex;
+    justify-content: start;
+}
+
+
+#slider {
+    background: white;
+    border-radius: 36px;
+    cursor: pointer;
+    outline: none;
+    height: 6px;
+    border-radius: 16px;
+    width: 100%;
+    margin: 0 8px;
+}
+
+
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c2043;
+    padding: 32px 32px;
+    border-radius: 8px;
+}
+
+
+#slider-left, #slider-right {
+    font-size: 14px;
+}
+
+
+#slider::-webkit-slider-thumb {
+    appearance: none;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    
+    
+}
+
+#slider::-moz-range-thumb {
+    appearance: none;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    
+}
+
+
+#subtitle {
+    color: #9798ab;
+    font-size: 12px;
+    margin: 32px 0 4px 8px;
+}
+
+#slider-value {
+    color: white;
+}
+
+#password {
+    background-color: #1c2043;
+    border: none;
+    color: #9798ab;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+#password::placeholder {
+    color: #9798abb1;
+}
+
+#copy {
+    color: #9798ab;
+    background-color: #1c2043;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#copy:hover {
+    color: #9798abc3;
+}
+
+#copy:active {
+    color: #9798ab94;
+}
+
+#include-spesh {
+    line-height: 0;
+}
+
+#gen {
+    width: 128px;
+    height: 32px;
+    margin: 32px auto;
+    font-family: inherit;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    background-color: #fddd5c;
+    color: #18172d;
+}
+
+#gen:hover {
+    background-color: #fddd5cc2;
+    cursor: pointer;
+}
+
+#gen:active {
+    background-color: #fddd5c80;
+}
+
+#options {
+    display: flex;
+    flex-direction: column;
+}
+
+
