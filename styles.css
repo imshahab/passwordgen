@@ -10,6 +10,7 @@ body {
     padding: 0 32px;
     /* added merely for the chrome extension */
     width: 256px;
+    margin: 0 auto;
 }
 
 #title-box {
